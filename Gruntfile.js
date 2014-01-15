@@ -142,7 +142,7 @@ module.exports = function(grunt) {
             releases: {
                 options: {
                     compose: {
-                        cwd: './'
+                        cwd: '<%= config.root %>/releases'
                     }
                 },
                 files: [{
